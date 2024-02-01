@@ -1,9 +1,18 @@
-#this program will write: "Hello World!"
+# This program will write
+#Hello World!
 
-#this function tells the computer to print
+#This function tells the
+#computer to print
+# "Hello World!"
 def PrintHelloWorld():
-	print("Hello World!")
+    print("Hello World!")
 
-#this function defines our main() function for our program
+#This defines our main()
+#function for our program
 def main():
-	PrintHelloWorld()
+    PrintHelloWorld()
+
+#When we run the program
+#this executes first
+if __name__=="__main__":
+    main()
